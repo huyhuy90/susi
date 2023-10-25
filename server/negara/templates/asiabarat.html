@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Halaman Utama
+{% endblock title %}
+
+{% block style %}
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: rgb(35, 190, 61);
+    }
+    h1 {
+        color: rgb(197, 238, 15);
+    }
+    h2{
+        color: rgb(144, 185, 47);
+    }
+    p {
+        color: rgb(0, 0, 0);
+    }
+    header a + a:before {
+        content: " | ";
+        margin: 0 5px;
+    }
+    header a {
+        text-decoration: none;
+    }
+</style>
+{% endblock style %}
+
+{% block menu %}
+{% endblock menu %}
+
+{% block content %}
+<h1>MACAM-MACAM SEBAGIAN NEGARA ASIA BARAT</h1>
+<p>Arab Saudi</p>
+<p>Azerbaijan</p>
+<p>Armenia</p>
+<p>Bahrain</p>
+</p>
+{% endblock content %}

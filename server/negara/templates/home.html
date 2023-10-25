@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Halaman Utama
+{% endblock title %}
+
+{% block style %}
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: rgb(65, 184, 65);
+    }
+    h1 {
+        color: rgb(0, 228, 0);
+    }
+    h2{
+        color: rgb(221, 235, 29);
+    }
+    p {
+        color: rgb(0, 0, 0);
+    }
+    header a + a:before {
+        content: " | ";
+        margin: 0 5px;
+    }
+    header a {
+        text-decoration: none;
+    }
+</style>
+{% endblock style %}
+
+{% block menu %}
+{% endblock menu %}
+
+{% block content %}
+<h1>SELAMAT DATANG DI HALAMAN UTAMA</h1>
+<h2>MACAM-MACAM SEBAGIAN NEGARA DI ASIA DAN EROPA</h2>
+<p>Negara adalah organisasi kekuasaan yang berdaulat dengan tata pemerintahan yang melaksanakan tata tertib atas orang-orang di daerah tertentu, dan memiliki kekuasaan tertinggi yang sah dan ditaati oleh rakyatnya. Negara juga merupakan suatu wilayah yang memiliki suatu sistem atau aturan yang berlaku bagi semua individu di wilayah tersebut, dan berdiri secara independen. Syarat primer sebuah negara adalah memiliki rakyat, memiliki wilayah, dan memiliki pemerintahan yang berdaulat. Sedangkan syarat sekundernya adalah mendapat pengakuan dari negara lain.</p>
+{% endblock content %}

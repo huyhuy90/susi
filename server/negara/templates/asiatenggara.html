@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Halaman Utama
+{% endblock title %}
+
+{% block style %}
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: rgb(50, 175, 45);
+    }
+    h1 {
+        color: rgb(205, 219, 11);
+    }
+    h2{
+        color: rgb(181, 236, 78);
+    }
+    ul {
+        color: rgb(0, 0, 0);
+    }
+    header a + a:before {
+        content: " | ";
+        margin: 0 5px;
+    }
+    header a {
+        text-decoration: none;
+    }
+</style>
+{% endblock style %}
+
+{% block menu %}
+{% endblock menu %}
+
+{% block content %}
+<h1>MACAM-MACAM SEBAGIAN NEGARA ASIA TENGGARA</h1>
+    <p>Indonesia</p>
+    <p>Malaysia</p>
+    <p>Brunei Darussalam</p>
+    <p>Laos</p>
+    <p>Singapura</p>
+    <p>Thailand</p>
+    <p>Vietnam</p>
+
+{% endblock content %}
